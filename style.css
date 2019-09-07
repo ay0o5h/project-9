@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* start navbar */
+#a {
+    font-size: 30px;
+    color: white;
+}
+#logo {
+    color: aliceblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+/* end navbar */
+/* start menu */
+.main {
+    background-image: url('p.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+#s {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+#s:hover {
+    border: 1px solid wheat;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px 5px black;
+}
+#p {
+    position: relative;
+    left: 75%;
+}
+#p1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color :wheat;
+    text-shadow: 0 0 3px black;
+}
+/* end menu */
+/* start about us */
+.about .card h2 {
+  color: black;
+  font-size: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: capitalize;
+}
+.about .card h4 {
+    color: rgb(211, 85, 2);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+  }
+  .about .card p {
+        color: black;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-transform: capitalize;
+  }
+  .card1 {
+      background-color: #613659;
+  }
+  .card2 {
+    background-color:#870A30;
+}
+.card3 {
+    background-color:#FF2768;
+}
+.about .card .btn {
+    background-color: salmon;
+    color: aliceblue;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+.about .card p {
+    color: wheat;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-transform: capitalize;
+}
+.about .card i {
+    font-size: 50px;
+    color: aliceblue;
+}
+.card1:hover {
+    box-shadow: 5px 15px 70px 5px black;
+    -webkit-box-shadow : 2px 15px 70px 2px black;
+    -moz-box-shadow :2px 15px 70px 2px black;
+}
+.card2:hover {
+    box-shadow: 5px 15px 70px 5px black;
+    -webkit-box-shadow : 2px 15px 70px 2px black;
+    -moz-box-shadow :2px 15px 70px 2px black;
+}
+.card3:hover {
+    box-shadow: 10px 15px 70px 10px black;
+    -webkit-box-shadow : 2px 15px 70px 2px black;
+    -moz-box-shadow :2px 15px 70px 2px black;
+}
+.about .card p:hover {
+    box-shadow: 5px 15px 70px 5px black;
+}
+.about .card i:hover {
+    box-shadow: 5px 15px 70px 5px black;
+}
+.about .card .btn:hover {
+    box-shadow: 5px 15px 70px 5px black;
+}
+/*end about us */
+/* start servies */
+.serv .card h3 {
+    color: wheat;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+}
+.serv .card  h5 {
+    color: salmon;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+}
+.serv .card p {
+    color: black;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+}
+.serv .card i {
+    font-size: 50px;
+    border-radius: 30px;
+    background-color: #FF2768;
+    color: aliceblue;
+}
+.serv .card .btn {
+    border: 1px solid black;
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 30px;
+}
+.serv .card .btn:hover {
+    box-shadow: 5px 20px 70px 5px black;
+    color: blanchedalmond;
+    background-color: #FF2768;
+}
+/* end servies */
+/* start lecture */
+.lec .card h3 {
+    color: aliceblue;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-footer {
+    background-color: salmon;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lec .card .card-footer h5 {
+    cursor: pointer;
+}
+.lec .card i {
+    font-size: 20px;
+    padding: 4%;
+    color: darkblue;
+    background-color: white;
+    border-radius: 30px;
+    display: none
+}
+.lec .card i:hover {
+    font-size: 25px;
+    box-shadow: 5px 20px 50px 5px darkblue;
+}
+/*  end lectuer
+/* start gallary */ 
+.gallary .card h3 {
+    font-size: 50px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* end gallary */
+/* start contact */
+.contact .card h5 {
+    font-size: 50px;
+    color: wheat;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact .card input {
+    background-color: #343a40;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid  #FF2768;
+    outline: unset;
+}
+.contact .card textarea {
+    background-color: #343a40;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid  #FF2768;
+    outline: unset;
+}
+.contact .card .btn {
+    color: #FF2768;
+    border: 1px solid  #FF2768;
+    border-radius: 40px;
+}
+.contact .card .btn:hover {
+    color: wheat;
+    background-color: #FF2768;
+    border: 1px solid  wheat;
+    border-radius: 40px;
+}
+/* end contact */
+/* start footer */
+.footer1 {
+    color: aliceblue;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    height: 200px;
+    width: 200px;
+    text-align: left;
+}
+.footer .footer1 input {
+    width: 150px;
+    border: 1px solid  #FF2768;
+    outline: unset;
+}
+.footer .footer1 .btn {
+    border: 1px solid  #FF2768;
+    outline: unset;
+    position: relative;
+    left: 3px;
+}
+.footer .footer1 .btn:hover {
+    background-color: #FF2768;
+    border: 1px solid  wheat;
+}
+.footer .footer1 i {
+    color: #FF2768;
+}
+.footer .footer1 i:hover {
+    color: aliceblue;
+}
+.footer2 {
+    color: aliceblue;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+.footer .footer1 h3{
+    color: #FF2768;
+}
+.footer .footer2 h3{
+    color: #FF2768;
+}
+.footer .footer2 i {
+    color: #FF2768;
+    background-color: aliceblue;
+    font-size: 20px;
+    border: 1px solid  #FF2768;
+    border-radius: 5px;
+    padding: 2%;
+}
+.footer .footer2 i:hover {
+    color: wheat;
+    background-color: #FF2768;
+    border: 1px solid  wheat;
+  padding: 3%;
+  box-shadow: 5px 20px 50px 5px #FF2768;
+}
+#copy {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+}
+/* end footer */
